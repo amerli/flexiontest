@@ -4,7 +4,7 @@
 
 Execute on the pluginapi maven project:
 ```
-mvn clean install
+mvn install
 mvn exec:java
 ```
 
