@@ -9,6 +9,10 @@
 	<artifactId>pluginapi</artifactId>
 	<name>Java Developer Challenge - Plugin API</name>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 	<dependencies>
 
 		<!-- json -->
