@@ -11,11 +11,11 @@ import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 
 public class IntegrationImpl implements Integration {
-	private final String DEVELOPER_ID = "merliandras";
-	private final String BASE_URL = "http://sandbox.flexionmobile.com/javachallenge/rest/";
-	private final String BUY_URL = BASE_URL + "developer/%s/buy/%s";
-	private final String GET_PURCHASES_URL = BASE_URL + "developer/%s/all";
-	private final String CONSUME_URL = BASE_URL + "developer/%s/consume/%s";
+	private static final String DEVELOPER_ID = "merliandras";
+	private static final String BASE_URL = "http://sandbox.flexionmobile.com/javachallenge/rest/";
+	private static final String BUY_URL = BASE_URL + "developer/%s/buy/%s";
+	private static final String GET_PURCHASES_URL = BASE_URL + "developer/%s/all";
+	private static final String CONSUME_URL = BASE_URL + "developer/%s/consume/%s";
 
 	public Purchase buy(String itemId) {
 		String url = String.format(BUY_URL, DEVELOPER_ID, itemId);
